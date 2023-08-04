@@ -24,7 +24,7 @@ function displayMultiplicationTable(number) {
   var city = prompt("Which City are you from?");
   alert("Welcome to city of lights");
 
-  var gender = prompt("What is your gender");
+  var gender = prompt("What is your gender? (Write in small letters)");
   if (gender === "male"){
     alert("Welcome Sir");
   } else if (gender === "female"){
@@ -34,7 +34,7 @@ function displayMultiplicationTable(number) {
     alert("invalid value");
   }
 
-  var color = prompt("Choose a color from red, yellow and green");
+  var color = prompt("Choose a color from red, yellow and green. (Write in small letters)");
 
   if (color === "red") {
     alert("Red means stop.");
